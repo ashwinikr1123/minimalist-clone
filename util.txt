@@ -1,0 +1,17 @@
+/* selectors */
+const toggleBtn = document.querySelector('.header-left');
+/*close -button*/
+const closeBtn = document.querySelector('.close-button');
+/*inner-nav*/
+const innerNav = document.querySelector('#inner-nav');
+/*outer-nav*/
+const outerNav = document.querySelector('#outer-nav');
+/*menu-bar */
+const menubar = document.querySelector('.menu-bar');
+ 
+//font aweosme
+
+const search = document.querySelector('.fa-magnifying-glass');
+const signUp = document.querySelector('.fa-user');
+const cart = document.querySelector('.fa-bag-shopping');
+

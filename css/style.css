@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #222;
+}
+
+.hidden {
+  visibility: hidden;
+}
+i {
+  color: #f4f4f4;
+  padding: 18px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+li:last-child > a {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 21px;
+}
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+a:hover {
+  color: #222;
+  transition: all 0.3s ease-in-out;
+}
+
+/*header*/
+#header {
+  position: relative;
+}
+
+/* hamburger menu */
+.header-left {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  border-radius: 50%;
+  padding: 15px;
+}
+.bars {
+  width: 120%;
+  height: 2px;
+  background-color: white;
+}
+.bar1,
+.bar2 {
+  margin-bottom: 8px;
+}
+
+/*bg change hover effect*/
+
+.onHover:hover {
+  background-color: #222;
+  transition: all 0.3s ease;
+}
+
+/* outer-nav */
+
+#outer-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  font-size: 1.5rem;
+  color: #f4f4f4;
+  background-color: #000;
+  height: 88px;
+  font-weight: normal;
+}
+/*icons in the header*/
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right {
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+/*inner navigation (initailly it should be hidden only works when click event happens*/
+#inner-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #000000a8, #000000da, #000000ee);
+}
+/*menu  container(menu + close Button) of  the inner nav */
+.menu-bar {
+  width: 42%;
+  min-height: 100vh;
+  display: flex;
+  background-color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+}
+/*menu container consists of links */
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  gap: 100px;
+}
+
+/*close-button*/
+.close-button {
+  transform: translateX(50px);
+  padding: 40px;
+}
+/*cross*/
+.cross {
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.line1,
+.line2 {
+  background-color: #fff;
+  width: 60%;
+  height: 2px;
+}
+.line1 {
+  transform: rotate(45deg);
+}
+.line2 {
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+/*right arrow*/
+.arrow {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.arrowline {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  padding-left: 20px;
+}
+
+.arrowline1,
+.arrowline2 {
+  margin-bottom: 6px;
+}
+.arrowline2 {
+  transform: translateX(-14px);
+}
+
+.arrowline1 {
+  width: 60%;
+  transform: rotate(45deg);
+}
+.arrowline3 {
+  width: 60%;
+  transform: rotate(-45deg);
+}

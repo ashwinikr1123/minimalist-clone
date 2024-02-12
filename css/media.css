@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (max-width: 768px) {
+  .menu-bar {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .header-center {
+    margin-right: 30px;
+  }
+  .header-right {
+    margin-right: 10px;
+  }
+  i {
+    padding: 12px;
+  }
+
+  .cross {
+    right: 10px;
+  }
+  .arrow {
+    cursor: pointer;
+  }
+}
