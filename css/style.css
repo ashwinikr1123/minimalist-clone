@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +39,8 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-/*header*/
+/*header section*/
+
 #header {
   position: relative;
 }
@@ -124,7 +124,6 @@ a:hover {
 
 /*close-button*/
 .close-button {
-  transform: translateX(50px);
   padding: 40px;
 }
 /*cross*/
@@ -187,4 +186,53 @@ a:hover {
 .arrowline3 {
   width: 60%;
   transform: rotate(-45deg);
+}
+/* landing  section */
+
+.landing-container {
+  display: flex;
+  align-items: center;
+}
+.landing-image {
+  width: 65%;
+  height: 100%;
+}
+.landing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.landing-text {
+  font-family: 'Open Sans', sans-serif;
+  width: 35%;
+  height: 100%;
+  padding: 30px;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+}
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+.para {
+  padding-right: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+.btn {
+  margin-top: 15px;
+}
+.btn a {
+  display: inline-block;
+  padding: 15px 28px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
 }

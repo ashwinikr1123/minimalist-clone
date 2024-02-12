@@ -1,4 +1,5 @@
 'use strict';
+
 //toggle button
 const toggleBtn = document.querySelector('.header-left');
 
@@ -11,9 +12,11 @@ const innerNav = document.querySelector('#inner-nav');
 toggleBtn.addEventListener('click', function () {
   innerNav.classList.toggle('hidden');
 });
+
 closeBtn.addEventListener('click', function () {
   innerNav.classList.toggle('hidden');
 });
+
 arrowBtn.addEventListener('click', function () {
   innerNav.classList.toggle('hidden');
 });
