@@ -3,8 +3,9 @@
 //toggle button
 const toggleBtn = document.querySelector('.header-left');
 
-/*close -button*/
+//close -button
 const closeBtn = document.querySelector('.close-button');
+// right-arrow
 const arrowBtn = document.querySelector('.arrow');
 
 const innerNav = document.querySelector('#inner-nav');
@@ -20,3 +21,5 @@ closeBtn.addEventListener('click', function () {
 arrowBtn.addEventListener('click', function () {
   innerNav.classList.toggle('hidden');
 });
+
+// footer-down-arrow
